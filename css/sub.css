@@ -1,0 +1,535 @@
+﻿@charset "UTF-8";
+
+
+
+
+#sub { width: 1260px; height: 1000px; margin: 100 auto;  position: relative; }
+
+#product {  width: 550px; height: 850px;  position: absolute; top: 70px; left: 70px;}
+
+#imgbox { width: 550px; height: 700px;}
+
+#imgbox>img{width: 100%; height: 100%;}
+
+
+
+#mini { width: 550px; height: 120px;   margin: 10px 0 0 0px;}
+
+#mini ul{width: 550px; height: 120px;  display: flex; justify-content: space-between; }
+
+#mini ul li{float: left;}
+#mini ul li:first-child {margin-left: 0;}
+#mini ul li:last-child {margin-right: 0;}
+
+#mini>ul>li>img{width: 100px; height: 120px; }
+
+#mini>ul>li>img:hover{transition:all 0.5s; transform:scale(1.02); }
+
+
+
+
+#price { width: 500px; height: 900px;  position:absolute; top:70px; 
+	left: 690px; }
+
+	#price>h2{margin: 20px 0 0 0px;}
+
+	#price>p{color: #666; margin: 10px auto;}
+
+	#price>h3{font-size: 28px; font-weight: bold;}
+
+
+/*구매혜택부터 수량까지*/
+
+#price>table{width:500px; font-size: 14px; position: absolute; top:230px ; left: 0px; margin: 0 0px 100px 0px; }
+
+td{padding: 0 0px 0 0px;}
+
+td:first-child {width:350px; }
+
+.purchase{margin: 20px 0 0 0px;}
+
+.member{  margin: 20px 0 0 0px;}
+
+
+#rel1 { width: 230px; height: 60px; float: left; margin: 400px 0 0 15px; cursor:pointer; }
+
+#rel1{background-color:#4d3319;  color:#fff; border:none; }
+
+#rel2 { width: 230px; height: 60px; float: left; margin: 400px 0 0 10px; cursor:pointer; }
+
+#rel2{background-color:#4d3319;  color:#fff; border:none; }
+
+
+
+
+
+
+
+/*상품이미지 전체면적*/
+
+#tab{width: 1260px; height: 11150px;}
+
+#review{width: 1115px; height:180px ; }
+
+#detail{ width: 1115px; height:61px ;  float: left;margin: 60px 0px; border-bottom: 1px solid #4d3319;  float: left;  }
+
+
+#wrap{width:1115px; height:60px ; float: left;  }
+
+
+
+
+
+
+
+
+/*상품상세정보*/
+
+#question1 { width:200px; height:31px ;  float: left;  text-align: center; padding: 15px; border-top: 1px solid #4d3319; border-right:1px solid #4d3319; 
+	border-left:1px solid #4d3319; background-color: white; display: flex; align-items: center; justify-content: center;}
+
+#question1:hover{cursor: pointer;}
+
+#question1>a{ text-decoration: none; color: black; font-size: 14px; font-weight: 100;}
+
+
+
+/*배송안내*/
+
+
+#questionD { width:200px; height:30px ;  float: left;text-align: center; padding: 15px;
+ border-top: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319; background-color:#f2e6d9; 
+ display: flex; align-items: center; justify-content: center;
+  }
+
+#questionD:hover{cursor: pointer;}
+
+
+#questionD>a{ text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+
+/*상품후기*/
+
+
+#question2 { width:200px; height:30px ;  float: left;  text-align: center; padding: 15px; 
+ border-top: 1px solid #b3b3b3 ; border-left: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319; 
+ background-color:#f2e6d9; display: flex; align-items: center; justify-content: center; }
+
+#question2:hover{cursor: pointer;}
+
+
+#question2>a { text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+/*상품문의*/
+
+
+#question3 { width:200px; height:30px ;  float: left; text-align: center; padding: 15px;   
+	border: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319;background-color:#f2e6d9;
+ display: flex; align-items: center; justify-content: center;
+	 }
+
+#question3:hover {cursor: pointer;}
+
+
+#question3>a{text-decoration: none; font-size: 14px; color: black;font-weight: 100;}
+
+
+
+
+
+
+
+/*맨 밑으로 내려가서*/
+
+/*상품상세정보*/
+
+
+#question4 { width:200px; height:30px ;  float: left;  text-align: center; padding: 15px; 
+ border-top: 1px solid #b3b3b3 ; border-left: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319;
+  background-color:#f2e6d9;  display: flex; align-items: center; justify-content: center; }
+
+#question4:hover{cursor: pointer;}
+
+
+#question4>a { text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+/*배송안내*/
+
+
+#questionE { width:200px; height:30px ;  float: left;text-align: center; padding: 15px;
+ border-top: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319; background-color:#f2e6d9; 
+ border-left: 1px solid #b3b3b3 ;  display: flex; align-items: center; justify-content: center; }
+
+#questionE:hover{cursor: pointer;}
+
+
+#questionE>a{ text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+/*상품후기*/
+
+
+#question5  { width:200px; height:31px ;  float: left;  text-align: center;
+ padding: 15px; border-top: 1px solid #4d3319; border-right:1px solid #595959;
+  border-left:1px solid #595959;background-color: white;  display: flex; align-items: center; justify-content: center; }
+
+
+#question5:hover{cursor: pointer;}
+
+
+#question5>a { text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+
+/*상품문의*/
+
+
+#question6 { width:200px; height:30px ;  float: left;text-align: center; 
+	padding: 15px; border-top: 1px solid #b3b3b3 ;  border-right: 1px solid #b3b3b3 ;
+	 border-bottom: 1px solid #4d3319; background-color:#f2e6d9;  display: flex; align-items: center; justify-content: center; }
+
+#question6:hover{cursor: pointer;}
+
+
+#question6>a{ text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*상품상세정보*/
+
+
+#question7 { width:200px; height:30px ;  float: left; border: 1px solid #cccccc; 
+	text-align: center; padding: 15px; border-bottom: 1px solid #4d3319;
+	 background-color: #f2e6d9;  display: flex; align-items: center; justify-content: center; }
+
+#question7:hover {cursor: pointer;}
+
+
+#question7>a{text-decoration: none; font-size: 14px; color: black;font-weight: 100;}
+/*배송안내*/
+
+
+
+#questionF { width:200px; height:30px ;  float: left;text-align: center; 
+	padding: 15px; border-top: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319;
+	 background-color:#f2e6d9;  display: flex; align-items: center; justify-content: center; }
+
+#questionF:hover{cursor: pointer;}
+
+
+#questionF>a{ text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+
+/*상품후기*/
+
+
+#question8 { width:200px; height:30px ;  float: left;  text-align: center; padding: 15px; 
+ border-top: 1px solid #b3b3b3 ; border-left: 1px solid #b3b3b3 ;border-bottom: 1px solid #4d3319;
+  background-color:#f2e6d9;   display: flex; align-items: center; justify-content: center;}
+
+#question8:hover{cursor: pointer;}
+
+
+#question8>a { text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+
+/*상품문의*/
+
+
+
+#question9 { width:200px; height:31px ;  float: left;  text-align: center;
+ padding: 15px; border-top: 1px solid #595959; border-right:1px solid #4d3319; 
+ border-left:1px solid #595959;background-color: white;  display: flex; align-items: center; justify-content: center; }
+
+#question9:hover{cursor: pointer;}
+
+
+#question9>a{ text-decoration: none;color: black;font-size: 14px; font-weight: 100;}
+
+
+
+
+
+
+
+
+/* 상품 이미지들 */
+
+
+#event{width: 1260px; height:240px ; }
+
+
+#event>img{margin: 0 0 0 130px;}
+
+#open{width: 1260px; height:240px ; }
+
+#open>img{margin: 0 0 0 130px;}
+
+
+#notice{width: 1260px; height:780px ; }
+
+#notice>img{margin: 0 0 0 130px;}
+
+#notice2{width: 1260px; height:1800px ; }
+
+#notice2>img{margin: 0 0 0 130px;}
+
+#notice3{width: 1260px; height:2305px ; }
+
+#notice3>img{margin: 0 0 0 130px;}
+
+#notice4{width: 1260px; height:1869px ;}
+
+#notice4>img{margin: 0 0 0 130px;}
+
+#notice5{width: 1260px; height:701px ;}
+
+#notice5>img{margin: 0 0 0 130px;}
+
+
+
+
+/*상품필수정보고시*/
+
+#must{width: 1260px; height:900px ;}
+
+#mustline>h1{width: 1260px; height:70px ;  text-align: center; font-size: 30px; color:black; }
+
+
+
+
+
+
+#imgline  {width:700px; height:800px; margin: 0px auto; display:block; border-top:1px solid #ddd;}
+
+
+#imgline> table {display:block; margin:10px 0 0 0px; line-height:30px;}
+
+#imgline > table th {font-size:14px; text-align:left; width:500px; height:100px; background-color:#ddd; padding:0 0 0 20px;}
+
+#imgline > table td {font-size:14px; text-align:left; width:500px; background-color:#eee; padding:0 0 0 20px; color:#333;}
+
+
+
+
+
+
+
+
+
+#delivery{width: 1260px; height:2100px ; margin: 40px auto; }
+
+
+#flavor1{width: 700px; height: 140px; margin: 0px auto; }
+
+#flavor1>img{float: left; margin:0px 0 0 60px;}
+
+#flavor1>h1{  color: #c68c53; float: left; margin:40px 0 0 10px; font-size: 40px; }
+
+
+#flavor2{width: 700px; height: 350px; margin: 0px auto; }
+
+#flavor2>h1{  text-align: center; font-size: 25px; color: #4d3319;}
+
+#flavor21{width: 520px; height: 300px;}
+
+#flavor21>p{  font-size: 15px; padding: 20px 0px;}
+
+
+#flavor3{width: 700px; height: 230px; margin: 0px auto; color: #4d3319;}
+
+#flavor3>h1{  text-align: center; font-size: 25px; }
+
+#flavor31{width: 520px; height: 180px; }
+
+#flavor31>p{  font-size: 15px; padding: 10px 0px;}
+
+
+
+
+
+
+#flavor4{width:700px; height: 290px; margin: 0px auto; color: #4d3319; border-bottom: 1px solid  #dfbf9f ;}
+
+#flavor4>h1{  text-align: center; font-size: 25px; }
+
+#flavor41{width: 520px; height: 240px; }
+
+#flavor41>p{ font-size: 15px; padding: 20px 0px;}
+
+
+#flavor5{width: 700px; height: 522px; margin: 30px auto; color: #4d3319;}
+
+
+#flavor5>h1{  text-align: center; font-size: 25px; }
+
+#flavor51{width: 520px; height: 150px;}
+
+#flavor51>p{  font-size: 15px; padding: 20px 0px;}
+
+
+
+
+#flavor6{width: 700px; height: 660px; margin: 0px auto;}
+
+#flavor6>img{width: 100%; height: 100%;}
+
+
+
+
+
+
+
+
+
+
+/* 상품 밑 설명들 모두 상세정보부터 */
+
+#underbar{width: 1260px; height:1600px ;  }
+
+/* 숫자 1까지 있는 면적*/
+
+#paper{width: 1115px; height:600px ;  }
+
+/* 상품 후기 밑줄그어져있는곳 까지 */
+
+#paper1{width: 1115px; height:80px ; border-bottom: 1px solid #b3b3b3;  }
+
+
+
+#bloa{width: 400px; height:40px ; float: left; margin: 30px 0 0 10px; }
+
+#bloa>h2{color: #666; font-weight: 100;}
+
+.blob{width: 170px; height:40px ; background-color: #4d3319;float: right; margin: 30px 20px 0 0px; font-size: 15px; cursor: pointer; color: white; border: 1px solid gray; }
+
+.bloc{width: 170px; height:40px ; background-color: white; float: right; margin: 30px 0px 0 0px;  font-size: 15px; cursor: pointer; border: 1px solid gray;}
+
+
+
+#paper2{width: 1115px; height: 470px ; }
+
+#paper2>h4{font-weight: bold; font-size: 18px; background-color: #996633;  color: white;float: left;margin: 20px 0 0 528px; border:5px solid  #996633; border-radius: 50px; }
+
+
+/* 맨 마지막 상품 QNA 구간 */
+
+
+.good{width: 755px; height:80px ;  float: left; border-bottom: 1px solid #b3b3b3 ;}
+
+.good>p{font-size: 14px; margin: 30px 0 0 10px; }
+
+
+.good2{width: 755px; height:80px ;  float: left; border-bottom: 1px solid #b3b3b3;}
+
+.good2>p{font-size: 14px; margin: 30px 0 0 10px; }
+
+
+
+
+
+
+
+#naver{width: 180px; height:80px ; float: left;border-bottom: 1px solid #b3b3b3;}
+
+#naver>p{font-size: 13px; margin: 30px 0 0 5px;}
+
+
+
+#day{width: 180px; height:80px ; float: left;border-bottom: 1px solid #b3b3b3;}
+
+#day>p{font-size: 13px;margin: 30px 0 0 5px; text-align: center;}
+
+/*상품 후기랑 문의 사이 공백*/
+
+#sky{width: 1260px; height:100px ; }
+
+
+
+
+footer{width: 100%;height: 500px;margin:0px auto;  }
+
+.bos{width: 100%;height: 100px;margin: 20px 0px 0 0px; background-color:#603810;}
+
+
+#box{width: 1260px;height: 130px;background-color:#603810;margin: 0 auto;}
+
+#box>a>img{margin: 20px 0 0 30px;}
+
+
+#box>.icon{width: 860px;height: 30px; float: right; margin: 40px 0px 0px 0px;}
+
+.icon>h3{float: left; margin: 0px 0px 0 500px; color: #fff;}
+
+.icon>a>img{float: left;  margin:4px 0px 0 30px;}
+
+
+
+#underbox{width: 100%;height: 50px;background-color:#eeeeee;margin: 0 auto;}
+
+#ubox{width: 1260px;height: 50px;margin: 0 auto;}
+
+
+#ubox>ul{font-size: 14px;}
+
+#ubox>ul>li{float: left; margin: 15px 0 0 20px;}
+
+#ubox>ul>li>a{text-decoration: none; color: #666; }
+
+#ubox>ul>li>a>span{font-weight: bold;}
+
+
+
+
+#under2box{width: 1260px;height: 290px;margin: 0 auto; }
+
+.end{width: 1260px;height: 250px;  float: left; margin: 40px 0 0 33px;}
+
+
+
+
+
+
+.center {width: 385px;height: 290px; float: left; padding: 0px 20px 5px 10px; }
+
+.center > h3 {color: black; text-transform:uppercase; margin: 0px ;}
+
+.center>h2{margin: 0px 0 0 0px; }
+
+.center>p{color: #666666;font-size: 12px;  }
+
+
+
+
+.bank{width: 385px;height: 290px; float: left;padding: 0px 20px 5px 15px;}
+
+.bank>h3{color: black; text-transform:uppercase;}
+
+.bank>p{color: #666666; font-size: 12px; }
+
+
+
+
+
+.company{width: 385px;height: 290px; float: left;padding: 0px 20px 5px 15px;}
+
+.company>h3{color: black; text-transform:uppercase;}
+
+.company>p{color: #666666; font-size: 12px; }
+
+.company>p>a{text-decoration: none; color: #666666;}
+
+.company>p>a:hover{text-decoration: underline;}
